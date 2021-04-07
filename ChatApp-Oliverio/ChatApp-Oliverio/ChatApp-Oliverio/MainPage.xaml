@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ChatApp_Oliverio.MainPage"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:local="clr-namespace:ChatApp_Oliverio"
+             >
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="CustomEntryStyle" TargetType="local:CustomEntry">
+                <Setter Property="Text" Value=""/>
+                <Setter Property="IsCurvedCornersEnabled" Value="True"/>
+                <Setter Property="BorderColor" Value="Black"/>
+                <Setter Property="BorderWidth" Value="3"/>
+            </Style>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <AbsoluteLayout Grid.Row="0" Grid.Column="0">
+            <StackLayout Orientation="Vertical" AbsoluteLayout.LayoutBounds="0,0,1,1" AbsoluteLayout.LayoutFlags="All" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" >
+                <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Frame BackgroundColor="#1976d2" CornerRadius="0" Grid.Column="0" Grid.Row="0">
+                        <Image Source="hermes" />
+                    </Frame>
+                    <FlexLayout Padding="5" Grid.Column="0" Grid.Row="1" JustifyContent="SpaceEvenly"  Direction="Column">
+                        <local:CustomEntry  x:Name="emailEntry" Focused="emailEntry_TextChanged" Completed="emailEntry_Completed" Placeholder="Email" Keyboard="Email" ReturnType="Next" Style="{StaticResource CustomEntryStyle}" />
+                        <Grid >
+                            <local:CustomEntry  x:Name="passEntry" Focused="passEntry_TextChanged" Completed="passEntry_Completed"  Placeholder="Password" IsPassword="True" Keyboard="Default" ReturnType="Done" Style="{StaticResource CustomEntryStyle}"/>
+                            <local:CustomButton x:Name="passShow" Clicked="passShow_Clicked" Text="Show" WidthRequest="{Binding Converter={StaticResource scale}, ConverterParameter='width=50'}" HeightRequest="{Binding Converter={StaticResource scale}, ConverterParameter='height=5'}" FontSize="{Binding Converter={StaticResource scale}, ConverterParameter='fontSize=8'}" Margin="{Binding Converter={StaticResource scale}, ConverterParameter='thickness=0,2,5,2'}" HorizontalOptions="End"/>
+                        </Grid>
+                        <Grid>
+                            <Label Text="Forgot Password?" HorizontalOptions="EndAndExpand" >
+                                <Label.GestureRecognizers>
+                                    <TapGestureRecognizer Tapped="TapGestureRecognizer_Tapped_1" NumberOfTapsRequired="1"/>
+                                </Label.GestureRecognizers>
+                            </Label>
+                        </Grid>
+                        
+                        <local:CustomButton x:Name="btnSignIn" Clicked="btnSignIn_Clicked" Text="Sign In"  CornerRadius="8" BackgroundColor="LightGreen"  />
+                        <local:CustomButton Text="Create an account"  CornerRadius="8"  Clicked="CustomButton_Clicked"/>
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="*" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="Auto"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+                            <FlexLayout Grid.Row="0"  Grid.Column="0" Direction="Column" JustifyContent="Center">
+                                <BoxView Color="Black" HeightRequest="1" />
+                            </FlexLayout>
+                            <Label Text="or" Grid.Row="0" Grid.Column="1"/>
+                            <FlexLayout Grid.Row="0"  Grid.Column="2" Direction="Column" JustifyContent="Center">
+                                <BoxView Color="Black" HeightRequest="1" />
+                            </FlexLayout>
+                        </Grid >
+                        
+                        <Grid >
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto" />
+                            </Grid.RowDefinitions>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="*"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Frame x:Name="googlesignin" HeightRequest="{Binding Converter={StaticResource scale}, ConverterParameter='height=25'}" CornerRadius="7" Padding="0" IsClippedToBounds="True" Grid.Row="0" Grid.Column="0">
+                                <Image Source="GoogleSignIn" Aspect="Fill"/>
+                                <Frame.GestureRecognizers>
+                                    <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped" NumberOfTapsRequired="1"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                            <Frame x:Name="facebooksignin" HeightRequest="{Binding Converter={StaticResource scale}, ConverterParameter='height=25'}" CornerRadius="7"  Padding="0" IsClippedToBounds="True"  Grid.Row="0" Grid.Column="1">
+                                <Image Source="FacebookSignIn" Aspect="Fill"/>
+                                <Frame.GestureRecognizers>
+                                    <!--Command="{Binding OnLoginWithFacebookCommand}" Tapped="TapGestureRecognizer_Tapped"-->
+                                    <TapGestureRecognizer  Tapped="TapGestureRecognizer_Tapped"  NumberOfTapsRequired="1"/>
+                                </Frame.GestureRecognizers>
+                            </Frame>
+                        </Grid>
+                    </FlexLayout>
+                </Grid>
+            </StackLayout>
+            <StackLayout
+                x:Name="aiLayout"
+                IsVisible="False"
+                AbsoluteLayout.LayoutBounds="0,0,1,1"
+                AbsoluteLayout.LayoutFlags="All"
+                >
+                <ActivityIndicator
+                    x:Name="ai"
+                    IsRunning="False"
+                    HorizontalOptions="CenterAndExpand"
+                    VerticalOptions="CenterAndExpand"
+                
+                    />
+            </StackLayout>
+        </AbsoluteLayout>
+    </Grid>
+</ContentPage>

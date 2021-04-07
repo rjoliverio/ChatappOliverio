@@ -1,0 +1,37 @@
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\bin\Debug\netstandard2.0\ChatApp-Oliverio.deps.json
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\bin\Debug\netstandard2.0\ChatApp-Oliverio.dll
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\bin\Debug\netstandard2.0\ref\ChatApp-Oliverio.dll
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\bin\Debug\netstandard2.0\ChatApp-Oliverio.pdb
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\ChatApp-Oliverio.csprojAssemblyReference.cache
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\Pages\ChatPage.xaml.g.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\Pages\ProfilePage.xaml.g.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\Pages\SignUp.xaml.g.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\Pages\UserTabbedPage.xaml.g.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\ChatApp-Oliverio.AssemblyInfoInputs.cache
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\ChatApp-Oliverio.AssemblyInfo.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\ChatApp-Oliverio.dll
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\ref\ChatApp-Oliverio.dll
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp Resources\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\ChatApp-Oliverio.pdb
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\bin\Debug\netstandard2.0\ChatApp-Oliverio.deps.json
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\bin\Debug\netstandard2.0\ChatApp-Oliverio.dll
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\bin\Debug\netstandard2.0\ref\ChatApp-Oliverio.dll
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\bin\Debug\netstandard2.0\ChatApp-Oliverio.pdb
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\Pages\ChatPage.xaml.g.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\Pages\ProfilePage.xaml.g.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\Pages\SignUp.xaml.g.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\Pages\UserTabbedPage.xaml.g.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\ChatApp-Oliverio.AssemblyInfoInputs.cache
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\ChatApp-Oliverio.AssemblyInfo.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\ChatApp-Oliverio.dll
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\ref\ChatApp-Oliverio.dll
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\ChatApp-Oliverio.pdb
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\ChatApp-Oliverio.csprojAssemblyReference.cache
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\Pages\ResetPage.xaml.g.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\Pages\SearchPage.xaml.g.cs
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\rjoli\Desktop\2nd Semester 2019-2020\MOBDEV\ChatApp-Oliverio\ChatApp-Oliverio\ChatApp-Oliverio\obj\Debug\netstandard2.0\Pages\ConversationPage.xaml.g.cs

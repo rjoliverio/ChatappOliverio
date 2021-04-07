@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ChatApp_Oliverio.ResetPage"
+             xmlns:local="clr-namespace:ChatApp_Oliverio"
+             Title="ChatApp Reset Password"
+             >
+    <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+        <AbsoluteLayout Grid.Row="0" Grid.Column="0">
+            <StackLayout Padding="5">
+                <Frame HasShadow="False" BackgroundColor="White" HeightRequest="220" CornerRadius="0">
+                    <Image Source="hermes2" />
+                </Frame>
+                <local:CustomEntry Text="" x:Name="emailEntry" BorderWidth="3" BorderColor="Black" Focused="emailEntry_Focused" Placeholder="Email" Keyboard="Email" ReturnType="Done" Completed="emailEntry_Completed" />
+                <local:CustomButton Text="Send Reset Password Email" HeightRequest="55" CornerRadius="8" Margin="0,3,0,3" Clicked="CustomButton_Clicked" BackgroundColor="LightGreen"/>
+            </StackLayout>
+            <StackLayout
+            x:Name="aiLayout"
+            IsVisible="False"
+            AbsoluteLayout.LayoutBounds="0,0,1,1"
+            AbsoluteLayout.LayoutFlags="All"
+            >
+                <ActivityIndicator
+                x:Name="ai"
+                IsRunning="False"
+                HorizontalOptions="CenterAndExpand"
+                VerticalOptions="CenterAndExpand" />
+            </StackLayout>
+        </AbsoluteLayout>
+    </Grid>
+</ContentPage>

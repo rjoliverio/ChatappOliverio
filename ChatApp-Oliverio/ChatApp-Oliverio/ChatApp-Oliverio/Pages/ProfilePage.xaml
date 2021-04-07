@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="ChatApp_Oliverio.ProfilePage"
+             x:Name="profilePage"
+             xmlns:local="clr-namespace:ChatApp_Oliverio"
+             >
+    <ContentPage.Content>
+        <Grid HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand">
+            <StackLayout Orientation="Vertical" Padding="10"  Grid.Row="0" Grid.Column="0">
+                <Frame CornerRadius="150" BackgroundColor="#1C86EE"  Margin="70,70,70,10" Padding="7" IsClippedToBounds="True">
+                    <Frame CornerRadius="150" BackgroundColor="#60affe"  Padding="7" IsClippedToBounds="True">
+                        <Frame CornerRadius="150" BackgroundColor="#726aba"  IsClippedToBounds="True">
+                            <Image Source="profile" Scale="1.3" Aspect="AspectFill" HorizontalOptions="Center" VerticalOptions="Center" />
+                        </Frame>
+                    </Frame>
+                </Frame>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Image Source="EditIcon" HorizontalOptions="Center"/>
+                    <Label Text="{Binding UserName}" FontSize="Large" HorizontalOptions="Center" FontAttributes="Bold"/>
+                </StackLayout>
+                <Label Text="{Binding Email}" FontSize="Medium" HorizontalOptions="Center" FontAttributes="Bold"/>
+                <local:CustomButton Text="Sign Out" CornerRadius="8" Margin="{Binding Converter={StaticResource scale}, ConverterParameter='thickness=8,8,8,8'}" Clicked="CustomButton_Clicked"/>
+            </StackLayout>
+        </Grid>
+    </ContentPage.Content>
+</ContentPage>

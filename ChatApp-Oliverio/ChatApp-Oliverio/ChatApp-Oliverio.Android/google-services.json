@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "834693771350",
+    "firebase_url": "https://chatapp-oliverio-15db8.firebaseio.com",
+    "project_id": "chatapp-oliverio-15db8",
+    "storage_bucket": "chatapp-oliverio-15db8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:834693771350:android:b4f267df39b961c6788bf7",
+        "android_client_info": {
+          "package_name": "com.companyname.chatapp_oliverio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "834693771350-j8ke82iaqvjbvlkn0iujsfse1u0phhsi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.companyname.chatapp_oliverio",
+            "certificate_hash": "008a97f11806ae30b5db2cc47cfbac59b5bd8807"
+          }
+        },
+        {
+          "client_id": "834693771350-oo4knq4q1uf6p5eaokpvkbgv1bf6o3b7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBkNLSjwKC2c2rOinkBqu6_TrGvcwDXT4g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "834693771350-oo4knq4q1uf6p5eaokpvkbgv1bf6o3b7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
